@@ -1,61 +1,61 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: system-ui;
+  font-family: system-ui;
 }
 
 article {
-    display: grid;
-    gap: 1rem;
-    font-size: 1.5rem;
-    margin-block-end: 6rem;
-    text-align: center;
+  display: grid;
+  gap: 1rem;
+  font-size: 1.5rem;
+  margin-block-end: 6rem;
+  text-align: center;
 }
 
 main {
-    margin-block: 80dvh 100dvh;
-    padding: 2rem;
+  margin-block: 80dvh 100dvh;
+  padding: 2rem;
 }
 
 section {
-    height: 100vh;
-    border: 2px solid #000;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    overflow-x: hidden;
+  height: 100vh;
+  border: 2px solid #000;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  overflow-x: hidden;
 }
 
 [class|="ball"] {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .ball-1 {
-    background: red;
+  background: red;
 }
 
 .ball-2 {
-    background: lightseagreen;
+  background: lightseagreen;
 }
 
 .ball-3 {
-    background: #145591;
+  background: #145591;
 }
 
 .ball-4 {
-    background: #da77f2;
+  background: #da77f2;
 }
 
 .ball-5 {
-    background: #51cf66;
+  background: #51cf66;
 }
 
 .active {
-    outline: 4px dashed;
-    outline-offset: 4px;
+  outline: 4px dashed;
+  outline-offset: 4px;
 }
